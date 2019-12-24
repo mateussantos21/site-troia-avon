@@ -61,53 +61,25 @@
 								</tr>
 							</table>
 						</form>
-						<div class="newsletter">
-							<form class="form-horizontal" method="POST" action="<?php echo "$_SERVER[PHP_SELF]";?>" >
-								<label>										
-									<?php if($idioma == 'true'){echo "Quer receber nossa Newsletter mensal?";}else{echo "Do you want to receive our monthly newsletter?";}?>
-								</label>
-								<div class="input-group">
-									<input type="email" class="form-control" placeholder="Email" name="email">
-									<span class="input-group-btn">
-										<button type="submit" class="btn btn-primary" name="solicitar" value="solicitar" ><?php if($idioma == 'true'){echo "Solicitar";}else{echo "Request";}?></button>
-									</span>
-								</div>
-							</form>
-						</div>
-						<?php
-							if($_POST['solicitar'] == 'solicitar'){
-								$email = $_POST['email'];
-								
-								$sql_newsletter = "INSERT INTO newsletter(e_mail) VALUES ('$email')";
-								mysqli_query($conn, $sql_newsletter);								
-							}
-						?>
 					</div>
 				</div>
-				<div class="col-md-8 col-md-offset-3">
+				<div class="col-md-12 col-md-offset-4">
 					<div class="social">
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<div class="facebook">
 								<a href="https://www.facebook.com/EquipeTROIA/?fref=ts" target="_blank">
 									<img src="fotos/gear.png" width="60px" height="60px" />
 								</a>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<div class="instagram">
 								<a href="https://www.instagram.com/troia_ufla/" target="_blank">
 									<img src="fotos/gear.png" width="60px" height="60px" />
 								</a>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<div class="snapchat">
-								<a data-toggle="modal" data-target=".bs-example-modal-sm">
-									<img src="fotos/gear.png" width="60px" height="60px" />
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<div class="youtube">
 								<a href="https://www.youtube.com/user/EquipTROIA" target="_blank">
 									<img src="fotos/gear.png" width="60px" height="60px" />
@@ -118,7 +90,7 @@
 				</div>
 				<div class="footer2">
 					<div class="content2">
-						<label>© 2013 Copyright Equipe TROIA. Todos os direitos reservados.</label>
+						<label>© 2019 Copyright Equipe TROIA. Todos os direitos reservados.</label>
 						<label>Av. Doutor Sylvio Menicucci, n° 1001, Departamento de Engenharia - DEG Bloco 1, Kennedy, Lavras - MG, CEP 37200-000. Telefone: (35)3829-4693</label>
 					</div>
 				</div>

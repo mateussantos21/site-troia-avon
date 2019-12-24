@@ -6,11 +6,7 @@
 		<!--<div class="tabs-ul">-->
 			<ul class="nav nav-tabs tabs-left" role="tablist">
 				<li class="active"><a href="#parkinson" data-toggle="tab">Parkinson</a></li>
-				<li><a href="#quejo" data-toggle="tab">Quejo</a></li>
-				<li><a href="#pulso" data-toggle="tab">Pulso</a></li>				
-				<li><a href="#zika" data-toggle="tab">Zika</a></li>
-				<li><a href="#hydra" data-toggle="tab">Hydra</a></li>
-				<li><a href="#escudo" data-toggle="tab">Escudo</a></li>			
+				<li><a href="#quejo" data-toggle="tab">Atomic</a></li>		
 			</ul>
 		<!--</div>-->
 		<div class="tabs-tab-content">
@@ -19,95 +15,21 @@
 					<h3>Parkinson</h3>
 					<div style='display: inline-block; width: 700px;'>
 						<p>
-							<img src="manuais/parkinson.png" width="350px" height="auto" style="margin: 0 20px 10px 0;" align="left">
-							&nbsp&nbsp&nbsp Placa de Controle e Potência de Motor DC. Aciona e controla 01 motor escovado de corrente contínua de até 70A e corrente de pico de 130A.
-						</p>
-						<p style="text-align: right;">
-							<a href="manuais/Manual_Parkinson.pdf" target="_blank">
-								<button type="button" class="btn btn-primary">
-									<span class="glyphicon glyphicon-link" aria-hidden="true"></span> Ver Manual
-								</button>
-							</a>
+							<img src="./fotos/img/park2.jpeg" width="350px" height="auto" style="margin: 0 20px 10px 0;" align="left">
+							&nbsp&nbsp&nbsp A Parkinson é uma placa muito robusta, suportando mais de 130A de pico e fornecendo mais de 3000 Watts. Sua estabilidade e confiabilidade garantem um ótimo desempenho nos projetos com motores escovados mais pesados da equipe. 
+Atualmente, a Parkinson é usada no Pegasus e no Team Tesla. Cada placa controla um único motor escovado. Assim, para o uso nos nossos robôs utilizamos um conjunto com duas Parkinson’s. As dimensões da PCB são de 68.1x52mm, o que a torna compacta o suficiente para os robôs em que é usada. 
+Desde a criação do nosso time de hockeys, ela é a responsável por fazer o Tesla campeão em muitas competições, incluindo a Robogames em nossa primeira participação.
 						</p>
 					</div>
 				</div>
 				<div class="tab-pane" id="quejo">
-					<h3>Quejo</h3>
+					<h3>Atomic</h3>
 					<div style='display: inline-block; width: 700px;'>
 						<p>
-							<img src="manuais/quejo.png" width="350px" height="auto" style="margin: 0 20px 10px 0;" align="left">
-							&nbsp&nbsp&nbsp Placa de Controle e Potência de Motores DC. Aciona e controla 02 motores com corrente contínua de até 20A e corrente de pico de 50A.
-						</p>
-						<p style="text-align: right;">
-							<a href="manuais/Manual_Quejo.pdf" target="_blank">
-								<button type="button" class="btn btn-primary">
-									<span class="glyphicon glyphicon-link" aria-hidden="true"></span> Ver Manual
-								</button>
-							</a>
-						</p>
-					</div>
-				</div>
-				<div class="tab-pane" id="pulso">
-					<h3>Pulso</h3>
-					<div style='display: inline-block; width: 700px;'>
-						<p>
-							<img src="manuais/pulso.png" width="350px" height="auto" style="margin: 0 20px 10px 0;" align="left">
-							&nbsp&nbsp&nbsp Placa de Controle e Potência de Motores DC. Aciona e controla 02 motores com corrente contínua de até 5A e corrente de pico de 6A.
-						</p>
-						<p style="text-align: right;">
-							<a href="manuais/Manual_Pulso.pdf" target="_blank">
-								<button type="button" class="btn btn-primary">
-									<span class="glyphicon glyphicon-link" aria-hidden="true"></span> Ver Manual
-								</button>
-							</a>
-						</p>
-					</div>
-				</div>
-				<div class="tab-pane" id="zika">
-					<h3>Zika</h3>
-					<div style='display: inline-block; width: 700px;'>
-						<p>
-							<img src="manuais/zika.png" width="350px" height="auto" style="margin: 0 20px 10px 0;" align="left">
-							&nbsp&nbsp&nbsp Placa de Controle e Potência de Motores DC. Aciona e controla 02 motores com corrente contínua de até 1A e corrente de pico de 2A.
-						</p>
-						<p style="text-align: right;">
-							<a href="manuais/Manual_Zika.pdf" target="_blank">
-								<button type="button" class="btn btn-primary">
-									<span class="glyphicon glyphicon-link" aria-hidden="true"></span> Ver Manual
-								</button>
-							</a>
-						</p>
-					</div>
-				</div>
-				<div class="tab-pane" id="hydra">
-					<h3>Hydra</h3>
-					<div style='display: inline-block; width: 700px;'>
-						<p>
-							<img src="manuais/hydra.png" width="350px" height="auto" style="margin: 0 20px 10px 0;" align="left">
-							&nbsp&nbsp&nbsp Placa BEC. Regula a tensão de entrada (Bateria 4s) para 12V, 5V e 3.3V.
-						</p>
-						<p style="text-align: right;">
-							<a href="manuais/Manual_Hydra.pdf" target="_blank">
-								<button type="button" class="btn btn-primary">
-									<span class="glyphicon glyphicon-link" aria-hidden="true"></span> Ver Manual
-								</button>
-							</a>
-						</p>
-					</div>
-				</div>
-				<div class="tab-pane" id="escudo">
-					<h3>Escudo</h3>
-					<div style='display: inline-block; width: 700px;'>
-						<p>
-							<img src="manuais/escudo.png" width="250px" height="auto" style="margin: 0 20px 10px 0;" align="left">
-							&nbsp&nbsp&nbsp Shield para Arduino. Conta com LCD, teclado, relés, LEDs de depuração, , conexão por bornes, barramento I2C e entradas para módulo de rádio comunicação e sensores inerciais.
-						</p>
-						<p style="text-align: right;">
-							<a href="manuais/Manual_Escudo.pdf" target="_blank">
-								<button type="button" class="btn btn-primary">
-									<span class="glyphicon glyphicon-link" aria-hidden="true"></span> Ver Manual
-								</button>
-							</a>
+							<img src="./fotos/img/atomic1.jpeg" width="350px" height="auto" style="margin: 0 20px 10px 0;" align="left">
+							&nbsp&nbsp&nbsp Com dimensões de 24x26mm, a Atomic é uma eletrônica projetada para robôs da categoria Antweight, mas devido ao seu excelente desempenho, passou a ser usada nos robôs da categoria Beetleweight também. 
+É uma placa que tem 60 watts de potência e suporta picos de até 3.5 Amperes, o que são valores consideráveis altos para uma eletrônica extremamente compacta. Feita para até dois motores escovados que são acionados através de circuitos integrados de Ponte-H. Veio para substituir a Zika, já que esta apresentava problemas em seu funcionamento e grande instabilidade. 
+Desde sua idealização, era uma eletrônica bastante promissora e se consolidou como uma placa estável e potente na competição Hacktudo em 2018, na qual o Muriçoca foi o campeão da categoria Antweight.
 						</p>
 					</div>
 				</div>

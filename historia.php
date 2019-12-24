@@ -33,11 +33,6 @@
 					}
 				}
 			?>
-			<div style="margin-top: 20px; float: right;">
-				<a href="integrantes.php"><button type="button" class="btn btn-primary">
-					<?php if($idioma == 'true'){echo "Conheça nossos integrantes";}else{echo "Meet our members";}?> 
-				</button></a>
-			</div>
 		</div>
 	</div>
 </div>

@@ -2,13 +2,13 @@
 	include ("conexao.class.php");
 	$lang = $_POST["lang"];
 	$idioma = "true";
-	if($lang == 'br'){
-		$idioma = 'true';
-	}else if($lang == 'eua'){
-		$idioma = 'false';
-	}else{
-		$idioma = 'true';
-	}
+	// if($lang == 'br'){
+	// 	$idioma = 'true';
+	// }else if($lang == 'eua'){
+	// 	$idioma = 'false';
+	// }else{
+	// 	$idioma = 'true';
+	// }
 	$server = $_SERVER['SERVER_NAME'];
 	$endereco = $_SERVER ['REQUEST_URI'];
 	$url = "http://" . $server . $endereco;
@@ -18,10 +18,10 @@
 	<head>
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="http://noticia.equipetroia.com.br/site_teste/" />
-		<meta property="og:title" content="Equipe TROIA" />
+		<meta property="og:title" content="TROIA - Equipe de Robótica" />
 		<meta property="og:image" content="http://noticia.equipetroia.com.br:2082/cpsess8741795793/viewer/home%2fequip614%2fpublic_html%2fnoticia%2fsite_teste%2ffotos/logo-og.jpg" />
-		<meta property="og:site_name" content="Equipe TROIA de Robótica" />
-		<title>Equipe TROIA</title>
+		<meta property="og:site_name" content="TROIA - Equipe de Robótica" />
+		<title>TROIA - Equipe de Robótica</title>
 		<script src="js/angular.js"></script>
 		<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
 		<script src="js/jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script>
@@ -78,7 +78,7 @@
 		<div class="container">
 			<div class="header">
 				<div class="idioma">
-					<form method="POST" action="<?php echo $url;?>">
+					<!--<form method="POST" action="<?php echo $url;?>">
 						<input type="hidden" name="lang" value="eua"/>
 						<button type="submit">
 							<img src="fotos/ing.gif" width="40px" height="24px">
@@ -89,7 +89,7 @@
 						<button type="submit">
 							<img src="fotos/port.gif" width="40px" height="24px" style="margin-top: 5px;">
 						</button>
-					</form>
+					</form>-->
 				</div>
 				<nav class="navbar navbar-default navbar-fixed-top menu">
 					<div class="container-fluid">
@@ -112,7 +112,7 @@
 												echo 'index.php#noticias';
 											}
 										?>" class="smoothScroll">
-										<?php if($idioma == 'true'){echo "Notícias";}else{echo "News";}?>
+										<?php if($idioma == 'true'){echo "Home";}else{echo "Home";}?>
 									</a>
 								</li>
 								<li>

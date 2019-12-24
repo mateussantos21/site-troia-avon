@@ -31,7 +31,7 @@
 							}else{
 								$texto = $row["texto_ing"];
 							}		
-							$diretorio = $row["diretorio"];
+							$diretorio = "./fotos/img/". $row["diretorio"];
 							$id = $row["id"];
 							if($id == 1){
 								$active = 'active';
@@ -46,27 +46,8 @@
 										<img src='".$diretorio."' width='350px' height='auto' style='margin: 0 20px 10px 0;' align='left'>
 										".$texto."
 									</p>
-							</div>
-							<div style='display: inline-block;'>
-								<h4>Competições</h4>
-								
-									<ul>
-							";
-							$sql_premios = "SELECT robos.id, evento.id, evento.data_inicial, evento.nome as evento, evento.local as local, premios.id, premios.descricao, 
-							premios.robo_id, premios.evento_id FROM evento JOIN premios ON evento_id = evento.id JOIN robos ON robos.id = robo_id 
-							WHERE robos.id = $id ORDER BY data_inicial";
-							$result_premios = mysqli_query($conn, $sql_premios);
-							if (mysqli_num_rows($result_premios) > 0) {
-								while($row = mysqli_fetch_assoc($result_premios)) {
-									$descricao = $row["descricao"];
-									$evento = $row["evento"];
-									$local = $row["local"];
-									echo "<li>".$descricao." - ".$evento." - ".$local."</li>";
-								}
-							echo"		</ul>
 								</div>
 							</div>";
-							}
 						}
 					}
 				?>

@@ -21,13 +21,13 @@
 			$result = mysqli_query($conn, $sql);
 			if (mysqli_num_rows($result) > 0) {
 				while($row = mysqli_fetch_assoc($result)) {
-				echo "
+					echo "
 					<div class='imagem-parceiro'>
 						<div class='imagem-foto'>
-							<a href='".$row['url']."' target='_blank'><img src='".$row['diretorio']."' width='300' height='100' /></a>
+							<a href='".$row['url']."' target='_blank'><img src='"."./fotos/img/". $row['diretorio']."' width='300' height='100' /></a>
 						</div>							
 					</div>
-				";
+					";
 				}
 			}
 		?>							
