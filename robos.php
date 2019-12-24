@@ -56,7 +56,7 @@
 		<!--<div class="tabs-ul">-->
 			<ul class="nav nav-tabs tabs-right" role="tablist">
 				<?php
-					for($i = 1; $i <= 11; $i++){
+					for($i = 1; $i <= 13; $i++){
 						if($i == 1){
 							$sql = "SELECT robos.id, robos.nome, robos.link FROM robos WHERE id = $i ORDER BY id";
 							$result = mysqli_query($conn, $sql);

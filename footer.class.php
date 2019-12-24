@@ -1,17 +1,17 @@
 			<?php 
 				$endereco = $_SERVER ['REQUEST_URI'];
-				if($endereco == '/' or $endereco == '/index.php' or $endereco == '/index.php#noticias' or $endereco == '/index.php#historia' or $endereco == '/index.php#robos' or $endereco == '/index.php#parceiros' or $endereco == '/index.php#contato'){
-					echo "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfxHObHxGw8c_VYjPNJ8e1t0s8-03yGYSN9qnhPjwm9Q8vEVQ/viewform'><div class='ps'></div></a>";
-				}
+				//if($endereco == '/' or $endereco == '/index.php' or $endereco == '/index.php#noticias' or $endereco == '/index.php#historia' or $endereco == '/index.php#robos' or $endereco == '/index.php#parceiros' or $endereco == '/index.php#contato'){
+				//	echo "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfxHObHxGw8c_VYjPNJ8e1t0s8-03yGYSN9qnhPjwm9Q8vEVQ/viewform'><div class='ps'></div></a>";
+				//}
 				//if($endereco == '/' or $endereco == '/index.php' or $endereco == '/index.php#noticias' or $endereco == '/index.php#historia' or $endereco == '/index.php#robos' or $endereco == '/index.php#parceiros' or $endereco == '/index.php#contato'){
 					//echo "<a href='processo-seletivo.php'><div class='ps'></div></a>";
 				//}
 				//if($endereco == '/' or $endereco == '/index.php' or $endereco == '/index.php#noticias' or $endereco == '/index.php#historia' or $endereco == '/index.php#robos' or $endereco == '/index.php#parceiros' or $endereco == '/index.php#contato'){
 					//echo "<a href='processo-seletivo-gestao.php'><div class='ps_gestao'></div></a>";
 				//}
-				if($endereco == '/' or $endereco == '/index.php' or $endereco == '/index.php#noticias' or $endereco == '/index.php#historia' or $endereco == '/index.php#robos' or $endereco == '/index.php#parceiros' or $endereco == '/index.php#contato'){
-					echo "<a href=''><div class='gestor'></div></a>";
-				}
+				//if($endereco == '/' or $endereco == '/index.php' or $endereco == '/index.php#noticias' or $endereco == '/index.php#historia' or $endereco == '/index.php#robos' or $endereco == '/index.php#parceiros' or $endereco == '/index.php#contato'){
+				//	echo "<a href=''><div class='gestor'></div></a>";
+				//}
 				
 			?>			
 			<!-- Modal -->
@@ -63,7 +63,7 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-md-12 col-md-offset-4">
+				<div class="col-md-9 col-md-offset-3">
 					<div class="social">
 						<div class="col-md-4">
 							<div class="facebook">

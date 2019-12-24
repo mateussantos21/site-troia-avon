@@ -20,7 +20,7 @@
 			if (mysqli_num_rows($result) > 0) {
 				while($row = mysqli_fetch_assoc($result)) {
 					$id = $row['id'];
-					for($i = 0; $i < 3; $i++){ /*Tamanho do for de acordo com a quantidade de noticia*/
+					for($i = 0; $i < 4; $i++){ /*Tamanho do for de acordo com a quantidade de noticia*/
 						if($i == 0){
 							$sql = "SELECT noticias.id, noticias.titulo, noticias.titulo_ing, noticias.descricao, noticias.descricao_ing, noticias.data_postagem, noticias.texto_id, 
 							noticias.imagem_id, textos.id, imagens.id, imagens.diretorio FROM textos JOIN noticias ON textos.id = noticias.texto_id 

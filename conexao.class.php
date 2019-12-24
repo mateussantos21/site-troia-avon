@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "equip614_db", "cavaco2015", "equip614_troia_db");
+$conn = mysqli_connect("localhost", "equip614_db", "cavaco2015", "equip614_new");
 if (!$conn->set_charset("utf8")) {
    die("Não foi possível formatar para UTF-8.\n");
 }
