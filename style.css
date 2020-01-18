@@ -38,7 +38,10 @@ body{
 .menu{
 	height: 100px;
 	margin-bottom: 0px;
-	background: transparent;
+	/* background: transparent; */
+	background-image: url('../fotos/background.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
 	border: 0;
 	width: calc(100% - 60px);
 }
@@ -159,7 +162,8 @@ body{
 }
 
 .second{
-	background: #00a550; 
+	background: #00a550;
+	height: 100%; 
 }
 .second h2{
 	color: #fff;
@@ -282,8 +286,9 @@ body{
 }
 
 .fifth{
-	padding: 60px 0px 0px 0px;
+	padding: 60px 0px 60px 0px;
 	background: #fff;
+	height: 100%;
 }
 .fifth h2{
 	color: #00a550;
@@ -329,7 +334,7 @@ body{
 }
 .sixth{
 	background: #fff;
-	padding: 60px 0px 0px 0px;
+	padding: 60px 0px 60px 0px;
 }
 .sixth h2{
 	color: #00a550;
@@ -437,9 +442,10 @@ body{
 .content-parceiro{
 	min-width: 1200px;
 	width: 1200px;
-	padding: 0px 60px;
+	padding: 0px 40px 0 40px;
 	float: left;
 	height: auto;
+	position: center;
 }
 .content-parceiro .imagem-parceiro{
 	float: left;
@@ -696,7 +702,7 @@ body{
 	height: auto;
 }
 .footer2 .content2{
-	height: auto;
+	height: 100%;
 	padding: 10px 0;
 	width: 90%;
 	margin: 0 5%;

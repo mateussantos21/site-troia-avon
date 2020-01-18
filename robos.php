@@ -43,7 +43,7 @@
 								<h3>".$robo."</h3>
 								<div style='display: inline-block;'>
 									<p>
-										<img src='".$diretorio."' width='350px' height='auto' style='margin: 0 20px 10px 0;' align='left'>
+										<img src='".$diretorio."' width='400px' height='auto' style='margin: 0 20px 0px 0;' align='left'>
 										".$texto."
 									</p>
 								</div>

@@ -35,7 +35,7 @@
 										$titulo = $row['titulo_ing'];
 										$descricao = $row['descricao_ing'];
 									}
-									echo "<div class='item active' style='background-image: url("."fotos/img/".$row['diretorio'].")'>
+									echo "<div class='item active' style='background-image: url("."fotos/img/".$row['diretorio']."); background-repeat: no-repeat; background-attachment: fixed; background-position: center top;'>
 										<!--<a href='".$url.$id."'>									
 											<div class='carousel-caption'>
 												<h3>".$titulo."</h3>
@@ -60,7 +60,7 @@
 										$titulo = $row['titulo_ing'];
 										$descricao = $row['descricao_ing'];
 									}
-									echo "<div class='item' style='background-image: url("."fotos/img/".$row['diretorio'].")'>
+									echo "<div class='item' style='background-image: url("."fotos/img/".$row['diretorio']."); background-repeat: no-repeat; background-attachment: fixed; background-position: center top;'>
 										<!--<a href='".$url.$monstro_acordou_porra."'>											
 											<div class='carousel-caption'>
 												<h3>".$titulo."</h3>
