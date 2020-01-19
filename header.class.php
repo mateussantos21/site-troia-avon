@@ -30,7 +30,7 @@
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.vertical-tabs.css" />
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="./style.css" />
 		<link rel="shortcut icon" type="image/png" href="fotos/Troia.ico"/>
 		<script type="text/javascript">
 			$(function($) {

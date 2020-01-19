@@ -4,12 +4,13 @@ body{
 	background-attachment: fixed;
 	min-width: 1200px;
 }
+
 .header{
 	z-index: 999;
 	width: 100%;	
 	min-height: 60px;
 	float: left;
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.85);
 	background-image: url("../fotos/logo.png");
 	background-size: 125px 50px;
 	background-position: 10px 5px;
@@ -17,17 +18,20 @@ body{
 	border-bottom: solid 3px #00a550;
 	position: fixed;
 }
+
 .idioma{
 	float: right;
 	width: 60px;
 	height: 60px;
     padding-top: 3px;
 }
+
 .idioma form{
 	margin: 0px;
 	width: 40px;
 	height: 24px;
 }
+
 .idioma button{
 	padding: 0;
 	margin: 0;
@@ -35,26 +39,28 @@ body{
 	outline: 0;
 	background: none;
 }
+
 .menu{
 	height: 100px;
 	margin-bottom: 0px;
-	/* background: transparent; */
-	background-image: url('../fotos/background.jpg');
-	background-repeat: repeat;
-	background-attachment: fixed;
+	background: transparent;
 	border: 0;
 	width: calc(100% - 60px);
 }
+
 .menu ul{
 	float: right;
 	margin: 0;
 }
+
 .menu ul li{
 	height: 60px;
 }
+
 .menu ul li:hover{
 	background: #00a550;
 }
+
 .menu a{
 	color: #00a550 !important;
 	text-transform: uppercase;
@@ -64,12 +70,15 @@ body{
 	transition: background-color 0.5s , color 0.5s , border-bottom 0.5s; 
 	transition-timing-function: ease-out;
 }
+
 .menu a:hover{
 	color: #fff !important;
 }
+
 .menu .container-fluid{
 	height: 60px;
 }
+
 .menu .navbar-collapse{
 	border-top: 0px;
 }
@@ -109,7 +118,6 @@ body{
 }
 .content{
 	width: 100%;
-	min-height: 100%;
 	height: auto;
 	float: left;
 	padding: 60px 40px 40px 40px;
@@ -163,7 +171,7 @@ body{
 
 .second{
 	background: #00a550;
-	height: 100%; 
+	height: 500px; 
 }
 .second h2{
 	color: #fff;
@@ -236,6 +244,7 @@ body{
 	width: 100%;
 	position: absolute;
 }
+
 .fourth .perfil-integrante .perfil-dados .perfil-nome p,
 .fourth .perfil-integrante .perfil-dados .perfil-curso p,
 .fourth .perfil-integrante .perfil-dados .perfil-divisao p,
@@ -247,6 +256,7 @@ body{
 	line-height: 20px;
 	margin-bottom: 4px;
 }
+
 .fourth .perfil-integrante .perfil-dados .perfil-curso label,
 .fourth .perfil-integrante .perfil-dados .perfil-divisao label,
 .fourth .perfil-integrante .perfil-dados .perfil-entrada label{
@@ -254,25 +264,31 @@ body{
 	display: inline-block;
 	color: #00a550;
 }
+
 .fourth .perfil-integrante .perfil-dados .perfil-nome p{
 	text-align: center;
 	color: #00a550;
 }
+
 .fourth .perfil-integrante .perfil-dados .perfil-nome{
 	bottom: 88px;
 }
+
 .fourth .perfil-integrante .perfil-dados .perfil-curso{
 	bottom: 48px;
 	left: 8px;
 }
+
 .fourth .perfil-integrante .perfil-dados .perfil-divisao {
 	bottom: 24px;
 	left: 8px;
 }
+
 .fourth .perfil-integrante .perfil-dados .perfil-entrada {
 	bottom: 0;
 	left: 8px;
 }
+
 .fourth .perfil-integrante .perfil-foto, 
 .fourth .perfil-integrante .perfil-dados{
 	position: absolute;
@@ -281,6 +297,7 @@ body{
 	width: 250px;
 	height: 250px;
 }
+
 .fourth .perfil-integrante .perfil-foto:hover{
 	opacity: 0.2;
 }
@@ -288,43 +305,48 @@ body{
 .fifth{
 	padding: 60px 0px 60px 0px;
 	background: #fff;
-	height: 100%;
+	height: 600px;
 }
+
 .fifth h2{
 	color: #00a550;
 }
+
 #modalidades>div>ul>li{
 	margin-bottom: -1px;
 }
+
 .fifth .tabs-sideways{
 	width: 100%;
-	float: left;
 	background: transparent;
-	min-height: 600px;
-	float: left;
 }
+
 .fifth .tabs-sideways .tab-content{
 	border: 1px solid #ddd;
     background: #fff;
-    height: 100%;
 	width: 100%;
 }
+
 .fifth .tabs-sideways h3{
 	margin-top: 0px;
 }
+
 .fifth .tabs-sideways .tabs-ul{
-	width: 150px;
+	width: auto;
 	float: left;
 	margin-top: -20px;
 }
+
 .fifth .tabs-sideways .tabs-ul li{
-	width: 150px;
+	width: auto;
 	margin-bottom: 1px;
 }
+
 .fifth .tabs-sideways .tabs-ul ul li a{
 	margin-right: 0px;
 	border-radius: 0px;
 }
+
 .fifth .tabs-sideways .tabs-ul ul .active a{
 	text-decoration: none;
 }
@@ -343,26 +365,23 @@ body{
 	width: 100%;
 	float: left;
 	background: transparent;
-	min-height: 600px;
+	min-height: 60px;
 	float: right;
 }
 .sixth .tabs-sideways .tab-content{
 	border: 1px solid #ddd;
     background: #fff;
-    height: 100%;
 	width: 100%;
 }
 .sixth .tabs-sideways h3{
 	margin-top: 0px;
 }
 .sixth .tabs-sideways .tabs-ul{
-	width: 42px;
+	width: auto;
 	float: left;
 	margin-top: -20px;
 }
-.sixth .tabs-sideways .tabs-ul .tabs-right{
-	right: 27px;
-}
+
 .sixth .tabs-sideways .tabs-ul ul li a{
 	margin-right: 0px;
 	border-radius: 0px;
@@ -372,7 +391,7 @@ body{
 }
 .robos-container {
 	padding: 20px 0;
-	width: 1000px;
+	width: 100%;
 	margin: auto;
 }
 .sixth .tabs-sideways .tabs-tab-content{
@@ -380,12 +399,12 @@ body{
 	float: left;
 }
 .sixth .tabs-ul{
-	width: 150px;
+	width: auto;
 	float: left;
 	margin-top: -20px;
 }
 .sixth .tabs-ul li{
-	width: 150px;
+	width: auto;
 	margin-bottom: 1px;
 }
 .nav-tabs {
@@ -440,8 +459,8 @@ body{
 	color: #00a550;
 }
 .content-parceiro{
-	min-width: 1200px;
-	width: 1200px;
+	min-width: 100%;
+	width: 100%;
 	padding: 0px 40px 0 40px;
 	float: left;
 	height: auto;
@@ -449,7 +468,7 @@ body{
 }
 .content-parceiro .imagem-parceiro{
 	float: left;
-	margin: 10px 30px;
+	margin: 10px ;
 }
 #texts > div > div > p{
 	color: #181617;
@@ -699,10 +718,9 @@ body{
 	float: left;
 	width: 100%;
 	margin-top: 20px;
-	height: auto;
 }
 .footer2 .content2{
-	height: 100%;
+	height: 100px;
 	padding: 10px 0;
 	width: 90%;
 	margin: 0 5%;
