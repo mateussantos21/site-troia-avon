@@ -176,6 +176,22 @@ body{
 .second h2{
 	color: #fff;
 }
+
+.third{	
+	padding: 60px 0 0 0;	
+}	
+.third .carousel{	
+	width: 100%;	
+	max-width: 100%;	
+	height: calc(100% - 63px);	
+}	
+.third .carousel .carousel-inner .item{	
+    background-position: center center;	
+    background-size: cover;	
+    background-repeat: no-repeat;	
+	height: 100%;	
+}
+
 .fourth{
 	background: #B2E4CA;
 }
