@@ -24,7 +24,7 @@
 					echo "
 					<div class='imagem-parceiro'>
 						<div class='imagem-foto'>
-							<a href='".$row['url']."' target='_blank'><img src='"."fotos/img/". $row['diretorio']."' width='210' /></a>
+							<a href='".$row['url']."' target='_blank'><img src='"."fotos/img/". $row['diretorio']."' width='170' /></a>
 						</div>							
 					</div>
 					";

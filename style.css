@@ -500,7 +500,9 @@ body{
 .content-parceiro .imagem-parceiro{
 	float: left;
 	margin: 10px;
-	height: 100px;
+	padding: 5px 15px 5px 15px;
+	height: 150px;
+	vertical-align: middle;
 }
 #texts > div > div > p{
 	color: #181617;
