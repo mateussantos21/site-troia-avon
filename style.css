@@ -3,6 +3,7 @@ body{
 	background-repeat: repeat;
 	background-attachment: fixed;
 	min-width: 1200px;
+	image-rendering: optimizeSpeed;
 }
 
 .header{
@@ -319,9 +320,10 @@ body{
 }
 
 .fifth{
-	padding: 20px 0px 20px 0px;
+	padding: 20px 60px 20px 60px;
 	background: #fff;
 	height: 600px;
+	position: center;
 }
 
 .fifth h2{
@@ -338,7 +340,7 @@ body{
 }
 
 .fifth .tabs-sideways .tab-content{
-	border: 1px solid #ddd;
+	/* border: 1px solid #ddd; */
     background: #fff;
 	width: 100%;
 }
@@ -349,7 +351,7 @@ body{
 
 .fifth .tabs-sideways .tabs-ul{
 	width: auto;
-	float: left;
+	float: center;
 	margin-top: -20px;
 }
 
@@ -367,12 +369,13 @@ body{
 	text-decoration: none;
 }
 .fifth .tabs-sideways .tabs-tab-content{
-	width: calc(100% - 150px);
-	float: left;
+	width: 100%;
+	float: center;
 }
 .sixth{
 	background: #fff;
-	padding: 20px 0px 20px 0px;
+	padding: 20px 60px 20px 60px;
+	position: center;
 }
 .sixth h2{
 	color: #00a550;
@@ -385,7 +388,7 @@ body{
 	float: right;
 }
 .sixth .tabs-sideways .tab-content{
-	border: 1px solid #ddd;
+	/* border: 1px solid #ddd; */
     background: #fff;
 	width: 100%;
 }
@@ -406,18 +409,22 @@ body{
 	text-decoration: none;
 }
 .robos-container {
-	padding: 20px 0;
+	position: center;
+	float: center;
+	padding: 20px 40px 0 40px;
+	margin: 0 40px 0 40px;
 	width: 100%;
 	margin: auto;
 }
 .sixth .tabs-sideways .tabs-tab-content{
-	width: calc(100% - 150px);
-	float: left;
+	width: 100%;
+	float: center;
 }
 .sixth .tabs-ul{
 	width: auto;
-	float: left;
+	float: center;
 	margin-top: -20px;
+	position: center;
 }
 .sixth .tabs-ul li{
 	width: auto;
@@ -427,6 +434,8 @@ body{
 	padding: 20px 0 0; 
 	list-style: none;
 	margin-bottom: 0px;
+	position: center;
+	float: center;
 }
 .nav-tabs li {display: inline;}
 .nav-tabs li a:hover, .nav-tabs li a:focus{
@@ -440,7 +449,7 @@ body{
 }
 .nav-tabs a {
 	display: inline-block;
-	border: 1px solid #ddd;
+	/* border: 1px solid #ddd; */
 	border-bottom: none;
 	padding: 15px;
 	cursor: pointer;
@@ -451,11 +460,11 @@ body{
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
 	color: #00a550;
-	border-bottom: 1px solid #fff;
+	/* border-bottom: 1px solid #fff; */
 	margin-bottom: -1px;	
 }
 .tab-content {
-	border: 1px solid #ddd;
+	/* border: 1px solid #ddd; */
 	padding: 20px;
 	background: #fff;
 }
@@ -471,20 +480,27 @@ body{
 	border: 0;
 }
 
+.seventh{	
+	padding: 20px 0px 20px 0px;
+	margin: 0 40px 0 40px;
+	position: center;
+}
+
 .seventh h2{
 	color: #00a550;
 }
 .content-parceiro{
 	min-width: 100%;
 	width: 100%;
-	padding: 0px 40px 0 40px;
-	float: left;
+	/* padding: 0px 40px 0 40px; */
+	float: center;
 	height: auto;
 	position: center;
 }
 .content-parceiro .imagem-parceiro{
 	float: left;
-	margin: 10px ;
+	margin: 10px;
+	height: 100px;
 }
 #texts > div > div > p{
 	color: #181617;

@@ -3,17 +3,17 @@
 		<h2><?php if($idioma == 'true'){echo "Projetos Eletrônicos";}else{echo "Eletronic Projetcs";}?></h2>
 	</div>
 	<div class="tabs-sideways">
-		<!--<div class="tabs-ul">-->
+		<div class="tabs-ul">
 			<ul class="nav nav-tabs tabs-left" role="tablist">
 				<li class="active"><a href="#parkinson" data-toggle="tab">Parkinson</a></li>
 				<li><a href="#quejo" data-toggle="tab">Atomic</a></li>		
 			</ul>
-		<!--</div>-->
+		</div>
 		<div class="tabs-tab-content">
 			<div class="tab-content">
 				<div class="tab-pane active" id="parkinson">
 					<h3>Parkinson</h3>
-					<div style='display: inline-block; width: 90%;'>
+					<div style='display: inline-block; width: 100%;'>
 						<p>
 							<img src="./fotos/img/park2.jpeg" width="400px" height="auto" style="margin: 0 20px 10px 0;" align="left">
 							&nbsp&nbsp&nbsp A Parkinson é uma placa muito robusta, suportando mais de 130A de pico e fornecendo mais de 3000 Watts. Sua estabilidade e confiabilidade garantem um ótimo desempenho nos projetos com motores escovados mais pesados da equipe. 
@@ -24,7 +24,7 @@ Desde a criação do nosso time de hockeys, ela é a responsável por fazer o Te
 				</div>
 				<div class="tab-pane" id="quejo">
 					<h3>Atomic</h3>
-					<div style='display: inline-block; width: 90%;'>
+					<div style='display: inline-block; width: 100%;'>
 						<p>
 							<img src="./fotos/img/atomic1.jpeg" width="400px" height="auto" style="margin: 0 20px 10px 0;" align="left">
 							&nbsp&nbsp&nbsp Com dimensões de 24x26mm, a Atomic é uma eletrônica projetada para robôs da categoria Antweight, mas devido ao seu excelente desempenho, passou a ser usada nos robôs da categoria Beetleweight também. 

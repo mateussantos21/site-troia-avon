@@ -53,8 +53,8 @@
 				?>
 			</div>
 		</div>
-		<!--<div class="tabs-ul">-->
-			<ul class="nav nav-tabs tabs-right" role="tablist">
+		<div class="tabs-ul">
+			<ul class="nav nav-tabs" role="tablist">
 				<?php
 					for($i = 1; $i <= 13; $i++){
 						if($i == 1){
@@ -82,6 +82,6 @@
 					}
 				?>
 			</ul>
-		<!--</div>-->
+		</div>
 	</div>	
 </div>
