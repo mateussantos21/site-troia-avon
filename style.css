@@ -62,6 +62,11 @@ body{
 	background: #00a550;
 }
 
+.menu ul li .processo{
+	background: #00a550;
+	color: rgba(255, 255, 255, 0.85);
+}
+
 .menu a{
 	color: #00a550 !important;
 	text-transform: uppercase;
